@@ -51,19 +51,10 @@ body {
     flex: 1;
     margin-left: 15px;
 }
-.nav-right {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    margin: 0;
-    padding-right: 50px;
-    display: flex;
-    gap: 45px;
-}
 .nav-btn {
     background: transparent;   /* no background */
     border: none;              /* no border */
-    color: #ffffff;               /* text color */
+    color: #ffffff;          /* text color */
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
@@ -229,21 +220,25 @@ body {
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
-    
     height: 450px;
-    border-radius: 15px;
-    
+    border-radius: 15px;  
     border: 1px solid rgb(0, 0, 0);
     flex-direction: column;
     align-items: center;
 }
 .about_top{
     height:20%;
-    background-color:orange;
+    display: flex;
+    align-items: center;     /* vertical center */
+    justify-content: center;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 .about_middle{
     height:40%;
     background-color :white;
+
 }
 .about_bottom{
     height:40%;
