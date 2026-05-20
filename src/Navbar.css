@@ -18,6 +18,12 @@
 
     border: 1px white solid;
     border-radius: 10px;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  
   
 }
 
@@ -65,10 +71,11 @@
     background-color: #0ea5e9;
     transform: scale(1.05);
 }
-.menu{
+.dropdown-menu{
    
     border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
-}
+    z-index: 1000;
+}   
 
 

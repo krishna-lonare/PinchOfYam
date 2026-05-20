@@ -128,32 +128,25 @@
      border-radius: 25%;
   }
 
-/* Features */
-.features {
+/* categories */
+.categories{
   display: flex;
+  flex-wrap: wrap;
+  column-gap: 70px;
+  padding-bottom: 30px; 
   justify-content: center;
-  gap: 30px;
-  padding: 60px 8%;
+  
+  
 }
 
-.card1 {
-  background-color: rgba(255, 255, 255, 0.2);
-  -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-  padding: 30px;
-  width: 300px;
-  border-radius: 12px;
-  border:1px solid white;
-  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
-  text-align: center;
-  color:rgb(0, 0, 0);
- 
+
+
+
+.gocard button{
+  width: 30%;
+  margin:15px
 }
 
-.card1 h2 {
-  margin-bottom: 15px;
-  color: #ffffff;
-}
 
 /* Footer */
 .footer {
@@ -189,4 +182,8 @@
   .nav-links {
     display: none;
   }
+}
+
+.hero1{
+  margin-top: 60px;
 }

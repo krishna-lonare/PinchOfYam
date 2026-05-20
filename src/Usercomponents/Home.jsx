@@ -1,25 +1,28 @@
 import React from "react";
 import "./Home.css";
 import Categories from "./Categories";
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+
 
 function Home() {
 
-  function Explore(){
+  function Explore() {
     window.location.href = "/Categories";
   }
   return (
-    <div>
+    <div className="hero1">
 
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
           <h1># Cooking With Speed And Test </h1>
 
-          
+
 
           <div className="hero-buttons">
-            <button onClick={Explore}className="start-btn">Explore</button>
-            
+            <button onClick={Explore} className="start-btn">Explore</button>
+
             <button className="learn-btn">Learn More</button>
           </div>
         </div>
@@ -31,24 +34,32 @@ function Home() {
           />
         </div>
       </section>
+      <div className="categories">
+        
+        <Card className="gocard" style={{ width: '18rem' }}>
+          <Card.Body>
+            <Card.Title>⚡ Quick Reels</Card.Title>
+            <Card.Text>Learn recipes instantly through short and engaging cooking reels in just a few seconds.</Card.Text>
+          </Card.Body>
+           <Button variant="primary">Primary</Button>
+          </Card>
 
-      {/* Features */}
-      <section className="features">
-        <div className="card1">
-          <h2>⚡ Fast Learning</h2>
-          <p>Learn cooking fast with short recipe reels.</p>
-        </div>
+         <Card className="gocard" style={{ width: '18rem' }}>
+          <Card.Body>
+            <Card.Title>📖 Step-by-Step Recipes</Card.Title>
+            <Card.Text>Read clear step-by-step instructions, ingredients, and cooking tips for every recipe.</Card.Text>
+          </Card.Body>
+           <Button variant="primary">Primary</Button>
+          </Card>
 
-        <div className="card1">
-          <h2>🍕 Recipe Categories</h2>
-          <p>Explore a wide variety of recipes from different cuisines.</p>
-        </div>
-
-        <div className="card1">
-          <h2>❤️ Save Recipes</h2>
-          <p>Bookmark your favorite recipes for quick access.</p>
-        </div>
-      </section>
+         <Card className="gocard" style={{ width: '18rem' }}>
+          <Card.Body>
+            <Card.Title>🎥 Deep Learning Videos</Card.Title>
+            <Card.Text>Watch detailed cooking videos to understand complete preparation methods from start to finish.</Card.Text>
+          </Card.Body>
+          <Button variant="primary">Primary</Button>
+          </Card>
+      </div>
 
       {/* Footer */}
       <footer className="footer">
