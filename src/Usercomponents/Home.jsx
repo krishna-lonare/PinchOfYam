@@ -3,6 +3,7 @@ import "./Home.css";
 import Categories from "./Categories";
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import { NavLink } from "react-router-dom";
 
 
 function Home() {
@@ -16,7 +17,7 @@ function Home() {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <h1># Cooking With Speed And Test </h1>
+          <h1># Cooking With Speed And Test </h1> 
 
 
 
@@ -63,8 +64,62 @@ function Home() {
 
       {/* Footer */}
       <footer className="footer">
-        <p>© 2026 MyWebsite. All Rights Reserved.</p>
-      </footer>
+
+      <div className="footer-container">
+
+        {/* Brand */}
+        <div className="footer-section">
+          <h2>🍴 PinchOfYam</h2>
+
+          <p>
+            Learn cooking faster with quick reels,
+            smart recipe notes, and detailed tutorials.
+          </p>
+        </div>
+
+        {/* Quick Links */}
+        <div className="footer-section">
+          <h3>Quick Links</h3>
+
+          <ul>
+            <NavLink to="/" className="nav-link"><li>Home</li></NavLink>
+            <NavLink to="/products" className="nav-link"><li>Products</li></NavLink>
+            <NavLink to="/categories" className="nav-link"><li>Categories</li></NavLink>
+            <NavLink to="/about" className="nav-link"><li>About</li></NavLink>
+            <li>Recipes</li>
+            <li>Categories</li>
+            <li>About</li>
+          </ul>
+        </div>  
+
+        {/* Features */}
+        <div className="footer-section">
+          <h3>Features</h3>
+
+          <ul>
+            <li>⚡ Quick Reels</li>
+            <li>📖 Smart Notes</li>
+            <li>🎥 Video Tutorials</li>
+            <li>🔊 Voice Recipe Reader</li>
+          </ul>
+        </div>
+
+        {/* Contact */}
+        <div className="footer-section">
+          <h3>Contact</h3>
+
+          <p>Email: support@pinchofyam.com</p>
+
+          <p>Made with ❤️ using React</p>
+        </div>
+
+      </div>
+
+      <div className="footer-bottom">
+        © 2026 PinchOfYam | All Rights Reserved
+      </div>
+
+    </footer>
     </div>
   );
 }

@@ -1,0 +1,287 @@
+[
+  {
+    "id": 1,
+    "name": "Paneer Butter Masala",
+    "category": "Indian",
+    "difficulty": "Medium",
+    "time": 30,
+    "rating": 4.8,
+    "favorite": false,
+    "reel": true,
+    "video": true,
+    "ingredients": [
+      "Paneer",
+      "Butter",
+      "Tomato",
+      "Cream"
+    ],
+    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+    "description": "Creamy and spicy paneer curry."
+  },
+
+  {
+    "id": 2,
+    "name": "Veg Biryani",
+    "category": "Indian",
+    "difficulty": "Hard",
+    "time": 45,
+    "rating": 4.9,
+    "favorite": false,
+    "reel": true,
+    "video": true,
+    "ingredients": [
+      "Rice",
+      "Vegetables",
+      "Spices"
+    ],
+    "image": "https://images.unsplash.com/photo-1563379091339-03246963d29a",
+    "description": "Traditional flavorful rice dish."
+  },
+
+  {
+    "id": 3,
+    "name": "Masala Dosa",
+    "category": "South Indian",
+    "difficulty": "Medium",
+    "time": 25,
+    "rating": 4.7,
+    "favorite": false,
+    "reel": true,
+    "video": true,
+    "ingredients": [
+      "Rice Batter",
+      "Potato",
+      "Spices"
+    ],
+    "image": "https://images.unsplash.com/photo-1630383249896-424e482df921",
+    "description": "Crispy dosa with spicy potato filling."
+  },
+
+  {
+    "id": 4,
+    "name": "Burger",
+    "category": "Fast Food",
+    "difficulty": "Easy",
+    "time": 15,
+    "rating": 4.5,
+    "favorite": false,
+    "reel": true,
+    "video": false,
+    "ingredients": [
+      "Bun",
+      "Patty",
+      "Cheese"
+    ],
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+    "description": "Cheesy crispy burger."
+  },
+
+  {
+    "id": 5,
+    "name": "French Fries",
+    "category": "Snacks",
+    "difficulty": "Easy",
+    "time": 10,
+    "rating": 4.4,
+    "favorite": false,
+    "reel": true,
+    "video": false,
+    "ingredients": [
+      "Potato",
+      "Salt",
+      "Oil"
+    ],
+    "image": "https://images.unsplash.com/photo-1576107232684-1279f390859f",
+    "description": "Crispy golden potato fries."
+  },
+
+  {
+    "id": 6,
+    "name": "White Sauce Pasta",
+    "category": "Italian",
+    "difficulty": "Easy",
+    "time": 20,
+    "rating": 4.6,
+    "favorite": false,
+    "reel": true,
+    "video": true,
+    "ingredients": [
+      "Pasta",
+      "Milk",
+      "Cheese"
+    ],
+    "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9",
+    "description": "Creamy cheesy pasta recipe."
+  },
+
+  {
+    "id": 7,
+    "name": "Pizza",
+    "category": "Italian",
+    "difficulty": "Medium",
+    "time": 35,
+    "rating": 4.9,
+    "favorite": false,
+    "reel": true,
+    "video": true,
+    "ingredients": [
+      "Cheese",
+      "Flour",
+      "Sauce"
+    ],
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591",
+    "description": "Loaded cheese pizza."
+  },
+
+  {
+    "id": 8,
+    "name": "Momos",
+    "category": "Chinese",
+    "difficulty": "Medium",
+    "time": 25,
+    "rating": 4.5,
+    "favorite": false,
+    "reel": true,
+    "video": true,
+    "ingredients": [
+      "Flour",
+      "Vegetables",
+      "Sauce"
+    ],
+    "image": "https://images.unsplash.com/photo-1626804475297-41608ea09aeb",
+    "description": "Steamed spicy momos."
+  },
+
+  {
+    "id": 9,
+    "name": "Noodles",
+    "category": "Chinese",
+    "difficulty": "Easy",
+    "time": 15,
+    "rating": 4.3,
+    "favorite": false,
+    "reel": true,
+    "video": false,
+    "ingredients": [
+      "Noodles",
+      "Sauce",
+      "Vegetables"
+    ],
+    "image": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841",
+    "description": "Quick spicy noodles."
+  },
+
+  {
+    "id": 10,
+    "name": "Pav Bhaji",
+    "category": "Indian",
+    "difficulty": "Medium",
+    "time": 30,
+    "rating": 4.8,
+    "favorite": false,
+    "reel": true,
+    "video": true,
+    "ingredients": [
+      "Bread",
+      "Vegetables",
+      "Butter"
+    ],
+    "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84",
+    "description": "Mumbai style buttery pav bhaji."
+  },
+
+  {
+    "id": 11,
+    "name": "Chocolate Cake",
+    "category": "Dessert",
+    "difficulty": "Medium",
+    "time": 40,
+    "rating": 4.9,
+    "favorite": false,
+    "reel": true,
+    "video": true,
+    "ingredients": [
+      "Chocolate",
+      "Flour",
+      "Sugar"
+    ],
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587",
+    "description": "Soft rich chocolate cake."
+  },
+
+  {
+    "id": 12,
+    "name": "Ice Cream",
+    "category": "Dessert",
+    "difficulty": "Easy",
+    "time": 10,
+    "rating": 4.6,
+    "favorite": false,
+    "reel": false,
+    "video": true,
+    "ingredients": [
+      "Milk",
+      "Sugar",
+      "Cream"
+    ],
+    "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb",
+    "description": "Cold creamy dessert."
+  },
+
+  {
+    "id": 13,
+    "name": "Sandwich",
+    "category": "Breakfast",
+    "difficulty": "Easy",
+    "time": 10,
+    "rating": 4.2,
+    "favorite": false,
+    "reel": true,
+    "video": false,
+    "ingredients": [
+      "Bread",
+      "Cheese",
+      "Vegetables"
+    ],
+    "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af",
+    "description": "Healthy quick sandwich."
+  },
+
+  {
+    "id": 14,
+    "name": "Maggi",
+    "category": "Fast Food",
+    "difficulty": "Easy",
+    "time": 5,
+    "rating": 4.7,
+    "favorite": false,
+    "reel": true,
+    "video": false,
+    "ingredients": [
+      "Maggi",
+      "Masala",
+      "Vegetables"
+    ],
+    "image": "https://images.unsplash.com/photo-1617093727343-374698b1b08d",
+    "description": "2-minute masala noodles."
+  },
+
+  {
+    "id": 15,
+    "name": "Tacos",
+    "category": "Mexican",
+    "difficulty": "Medium",
+    "time": 20,
+    "rating": 4.5,
+    "favorite": false,
+    "reel": true,
+    "video": true,
+    "ingredients": [
+      "Tortilla",
+      "Cheese",
+      "Veggies"
+    ],
+    "image": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85",
+    "description": "Crunchy Mexican tacos."
+  }
+]
