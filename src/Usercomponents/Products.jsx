@@ -1,7 +1,7 @@
 import React, { use, useEffect } from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import './products.css';
+
 import products from './products.json';
 function Products() {
 
