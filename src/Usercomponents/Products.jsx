@@ -28,7 +28,7 @@ function Products() {
       </Card.Body>
     </Card>
         ))}
-      )
+      
     </div>
   )
 }
