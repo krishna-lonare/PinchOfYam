@@ -86,21 +86,3 @@
   }
 
 }
-.products-container{
-
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
-  padding: 20px;
-
-  /* Background */
-
-  background: rgba(255,255,255,0.1);
-
-  /* Blur Effect */
-
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-
-}
