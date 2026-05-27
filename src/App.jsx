@@ -7,6 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 import Products from './Usercomponents/Products';
 import { NavLink, Outlet } from 'react-router-dom';
 import Navbar from './Navbar';
+import InstagramReels from './Usercomponents/InstagramFeed';
 
 
 function App() {

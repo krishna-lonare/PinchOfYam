@@ -1,62 +1,55 @@
-import React, { use, useEffect } from 'react'
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import React from "react";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
 
-import products from './products.json';
+import products from "./products.json";
+
+import "./Products.css";
+
 function Products() {
 
-
   return (
-    <div className='container mt-5 d-flex flex-wrap gap-3 justify-content-center'>
-      {
-        products.map((product) => (
-          // <div className="card" key={product.id}>
 
-          //   <h2>ID : {product.id}</h2>
-          //   <h3>Title : {product.name}</h3>
-          //   <p>Name : {product.name}</p>
+    <div className="products-container">
 
-          // </div>
-          <Card  style={{ width: '18rem' }}>
-      <Card.Img  variant="top" src={product.image} />
-      <Card.Body>
-        <Card.Title>{product.name}</Card.Title>
-        <Card.Text>
-          {product.description}
-        </Card.Text>
-        <Button variant="primary">REEl</Button>
-      </Card.Body>
-    </Card>
-        ))}
-      
+      {products.map((product) => (
+
+        <Card
+          key={product.id}
+          className="product-card"
+        >
+
+          <Card.Img
+            variant="top"
+            src={product.image}
+            className="product-image"
+          />
+
+          <Card.Body>
+
+            <Card.Title className="product-title">
+              {product.name}
+            </Card.Title>
+
+            <Card.Text className="product-text">
+              {product.description}
+            </Card.Text>
+
+            <Button
+              variant="dark"
+              className="w-100"
+            >
+              REEL
+            </Button>
+
+          </Card.Body>
+
+        </Card>
+
+      ))}
+
     </div>
-  )
+  );
 }
 
-export default Products
-
-{/* {
-        products.map((product) => {
-
-          return <div>
-            <h2>{product.title}</h2>
-            <p>{product.description}</p>
-            <img src={product.thumbnail} alt={product.title} />
-            <Card className='card' style={{ width: '18rem' }}>
-              <Card.Img variant="top" src={product.thumbnail} />
-              <Card.Body>
-                <Card.Title>{product.title}</Card.Title>
-                <Card.Text>
-                  {product.description}
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
-          </div>
-
-
-
-        }
-        )};
-
- */}
+export default Products;
